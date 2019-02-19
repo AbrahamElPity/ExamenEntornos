@@ -11,10 +11,10 @@ public class Profesor extends Persona{
         super(numerodeTelefono);
     }
     
-    public String printInformacionPersonal(){
+    public String mostrarInfoPersonal(){
         return "Nombre: "+srt+"\nEdad: "+edad+"Telefono: "+this.numerodeTelefono;
     }
-    public void printTodalaInformacion(){
+    public void mostrarTodaInformacion(){
         System.out.println("Nombre: "+srt);
         System.out.println("Edad: "+edad);
         System.out.println("Telefono: "+this.numerodeTelefono);
