@@ -18,6 +18,9 @@ public class Profesor extends Persona{
         System.out.println("Nombre: "+srt);
         System.out.println("Edad: "+edad);
         System.out.println("Telefono: "+this.numerodeTelefono);
+        prestamo();
+    }
+    public void prestamo(){
         for(Prestamo p:prestamos){
             System.out.println(p);
         }
